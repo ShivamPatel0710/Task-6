@@ -1,0 +1,44 @@
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: Red;
+}
+
+form{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    background-color: yellowgreen;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
